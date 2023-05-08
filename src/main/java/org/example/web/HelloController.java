@@ -2,10 +2,12 @@ package org.example.web;
 
 
 import org.example.web.dto.HelloResponseDto;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+@EnableJpaAuditing
 @RestController
 public class HelloController {
 
