@@ -183,6 +183,7 @@ build/
 
 # IntelliJ
 .idea/
+*.idea
 
 # Gradle files
 .gradle
